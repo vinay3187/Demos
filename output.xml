@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0 (Python 3.7.2 on win32)" generated="20200202 20:23:13.440">
+<suite id="s1" name="Demos" source="C:\Users\vinaykn\eclipse-workspace\Demos">
+<suite id="s1-s1" name="Libspecs" source="C:\Users\vinaykn\eclipse-workspace\Demos\libspecs">
+<suite id="s1-s1-s1" name="Animation" source="C:\Users\vinaykn\eclipse-workspace\Demos\libspecs\Animation.robot">
+<test id="s1-s1-s1-t1" name="Animation1">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Animation</arg>
+</arguments>
+<msg timestamp="20200202 20:23:14.088" level="INFO">Animation</msg>
+<status status="PASS" starttime="20200202 20:23:14.088" endtime="20200202 20:23:14.088"></status>
+</kw>
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>http://127.0.0.1:4723/wd/hub</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=6.0</arg>
+<arg>deviceName=ZY2222VPNN</arg>
+<arg>appPackage=io.appium.android.apis</arg>
+<arg>appActivity=io.appium.android.apis.ApiDemos</arg>
+</arguments>
+<status status="PASS" starttime="20200202 20:23:14.088" endtime="20200202 20:23:32.908"></status>
+</kw>
+<kw name="Click Text" library="AppiumLibrary">
+<doc>Click text identified by ``text``.</doc>
+<arguments>
+<arg>text=Animation</arg>
+</arguments>
+<status status="PASS" starttime="20200202 20:23:32.908" endtime="20200202 20:23:33.330"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>text=Bouncing Balls</arg>
+</arguments>
+<status status="PASS" starttime="20200202 20:23:33.330" endtime="20200202 20:23:33.799"></status>
+</kw>
+<kw name="Click Text" library="AppiumLibrary">
+<doc>Click text identified by ``text``.</doc>
+<arguments>
+<arg>text=Bouncing Balls</arg>
+</arguments>
+<status status="PASS" starttime="20200202 20:23:33.799" endtime="20200202 20:23:34.198"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>text=Animation/Bouncing Balls</arg>
+</arguments>
+<status status="PASS" starttime="20200202 20:23:34.214" endtime="20200202 20:23:34.542"></status>
+</kw>
+<kw name="Swipe" library="AppiumLibrary">
+<doc>Swipe from one point to another point, for an optional duration.</doc>
+<arguments>
+<arg>start_x=345</arg>
+<arg>start_y=961</arg>
+<arg>offset_x=356</arg>
+<arg>offset_y=490</arg>
+</arguments>
+<status status="PASS" starttime="20200202 20:23:34.558" endtime="20200202 20:23:35.026"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=BouncingBalls.png</arg>
+</arguments>
+<msg timestamp="20200202 20:23:36.437" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="BouncingBalls.png"&gt;&lt;img src="BouncingBalls.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200202 20:23:35.026" endtime="20200202 20:23:36.437"></status>
+</kw>
+<status status="PASS" starttime="20200202 20:23:14.088" endtime="20200202 20:23:36.437" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200202 20:23:13.587" endtime="20200202 20:23:36.445"></status>
+</suite>
+<status status="PASS" starttime="20200202 20:23:13.586" endtime="20200202 20:23:36.446"></status>
+</suite>
+<status status="PASS" starttime="20200202 20:23:13.518" endtime="20200202 20:23:36.446"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Demos">Demos</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Libspecs">Demos.Libspecs</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="Animation">Demos.Libspecs.Animation</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
